@@ -1,0 +1,79 @@
+.popup {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.popup:target {
+	visibility: visible;
+	opacity: 1;
+}
+.line{
+    border-bottom: 1px solid #333;
+}
+.wrapper {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 400px;
+	position: relative;
+	transition: all 5s ease-in-out;
+
+}
+.wrapper h2 {
+	margin-top: 0;
+	color: #333;
+}
+/*form*/
+
+.modal-body {
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 20px 0;
+}
+form label {
+	font-weight: 500;
+    font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif !important;
+}
+form input:focus{
+    border: 1px solid #f7c08a;
+    outline: none;
+}
+input[type="text"],[type="date"],[type="time"], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+.modal-footer{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.modal-footer .btn:last-child{
+    background-color: #f7c08a;
+    color: #fff;
+    cursor: pointer;
+}
+.modal-footer .btn:first-child{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+/* .modal-footer .btn:hover{
+    background-color: #333;
+}
+.modal-footer .btn:hover:first-child{
+    background-color: #f7c08a;
+        color: #fff;
+} */
