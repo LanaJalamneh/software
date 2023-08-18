@@ -1,5 +1,5 @@
 
-@section('title','Contact')
+@section('title','Feedback')
 @include('layouts.nav')
 
 
@@ -56,17 +56,17 @@
         <div class="box">
             <i class="fas fa-hotel fa-3x"></i>
             <h3>Location</h3>
-<p>50 Main st, Boston MA</p>
+<p>Abdoun, Amman, Jordan</p>
         </div>
         <div class="box">
             <i class="fas fa-phone fa-3x"></i>
             <h3>Phone Number</h3>
-<p>(617) 555-5555</p>
+<p>(06) 3346872</p>
         </div>
         <div class="box">
             <i class="fas fa-envelope fa-3x"></i>
             <h3>Email Address</h3>
-            <p>frontdesk@hotelbt.co</p>
+            <p>papilio_hotel@gmail.com</p>
         </div>
     </div>
 </section>

@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="/style.css">
 
-    <title>Hotel BT | @yield('title')</title>
+    <title>Papilio Hotel | @yield('title')</title>
     <style>
 
     </style>
@@ -20,7 +20,7 @@
 <header>
     <nav id="main-navbar">
         <div class="navbar-container">
-            <h1 class="navbar-logo"><a href="/">HBT</a></h1>
+            <h1 class="navbar-logo"><a href="/">PAPILIO</a></h1>
 
             <ul>
                 <li><a href="/" @if(Request::is('/')) active class="current" @endif>Home</a></li>

@@ -9,7 +9,7 @@
 </head>
 <body>
 <footer id="main-footer">
-    <p>Hotel BT &copy; 2023, All Rights Reserved</p>
+    <p>Papilio Hotel &copy; 2023, All Rights Reserved</p>
 </footer>
 </body>
 </html>

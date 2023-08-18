@@ -1,4 +1,4 @@
-@section('title', 'Welcome')
+@section('title', 'Signup')
 @include('layouts.nav')
 
 

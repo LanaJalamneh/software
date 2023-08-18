@@ -1,4 +1,4 @@
-@section('title', 'Rooms')
+@section('title', 'Twin Rooms')
 @include('layouts.nav')
 
 <!doctype html>

@@ -1,4 +1,4 @@
-@section('title', 'Rooms')
+@section('title', 'Single Rooms')
 @include('layouts.nav')
 
 <!doctype html>
@@ -17,10 +17,24 @@
             display: flex;
             justify-content: flex-end;
         }
+        * {
+            box-sizing: border-box;
+            margin:0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        main{
+            flex: 1;
+        }
     </style>
 
 </head>
 <body>
+  <main id="main">
 <section id="rooms">
     <div class="rooms-container">
             <div class="room">
@@ -115,6 +129,7 @@
             </div>
         </div>
 </section>
+</main>
 
 <section class="popup" id="popup">
   <div class="wrapper">
