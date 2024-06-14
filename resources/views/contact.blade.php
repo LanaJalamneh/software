@@ -17,7 +17,11 @@
     {{-- <link rel="stylesheet" href="/mobile.css"> --}}
 
     <script src="https://kit.fontawesome.com/cf7b2cdf0b.js" crossorigin="anonymous"></script>
-
+<style>
+    a{
+        color: #fff;
+    }
+</style>
 
 </head>
 <body>
@@ -66,7 +70,7 @@
         <div class="box">
             <i class="fas fa-envelope fa-3x"></i>
             <h3>Email Address</h3>
-            <p>papilio_hotel@gmail.com</p>
+            <p><a href="mailto:papilio_hotel@gmail.com">papilio_hotel@gmail.com</a></p>
         </div>
     </div>
 </section>
